@@ -12,6 +12,6 @@
 
         secondAccountOwner ! Operation(BigDecimal(40),  new Date())
         
-   But this time it's by sending message asynchronously to another actor's mail box 
-   com.novencia.bankaccount.actors.Withdrawer, to which we delegate the action to operate withdrawal
+   But this time it's by sending messages asynchronously to another actor's mail box 
+   com.novencia.bankaccount.actors.Withdrawer, to which we delegate the action of operating withdrawal
    on a given bankaccount resource.
